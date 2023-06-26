@@ -15,3 +15,30 @@ body{
 }
 
 /*task form */
+
+#tasks-header{
+    margin-top: 40px;
+}
+
+
+#add-task-form{
+    position: relative;
+}
+
+#add-task-form input{
+
+    box-sizing: border-box;
+    border:  1px solid #9900ff;
+    background: #fff;
+    color: #4E56EB;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.247) 4px -1px 8px 1px;
+}
+
+#add-task-form input::placeholder{
+    color: #4E56EB;
+}

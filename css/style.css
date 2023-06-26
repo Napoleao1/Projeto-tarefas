@@ -39,6 +39,34 @@ body{
     box-shadow: rgba(0, 0, 0, 0.247) 4px -1px 8px 1px;
 }
 
+#add-task-form input:focus{
+    outline: none;
+   
+}
+
 #add-task-form input::placeholder{
     color: #4E56EB;
+}
+    
+#add-btn{
+    position: absolute;
+    background: #fff;
+    border: 1px solid #4E56EB;
+    cursor: pointer;
+    transition: .5s;
+    width: 60px;
+    height: 53px;
+    top: 0;
+    right: 0;
+    padding-top: 3px;
+
+}
+
+#add-btn:hover{
+    background: #b46eeade;
+    color: white;
+}
+
+ion-icon{
+    font-size: 25px;
 }
